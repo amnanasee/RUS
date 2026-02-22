@@ -1,0 +1,46 @@
+.aboutus_box_hero {
+    display: flex;
+    align-items: flex-start;   /* align top */
+    justify-content: space-between;
+    gap: 4rem;
+    padding-top: 32px;
+}
+
+.aboutus_box_hero_left {
+    flex: 1;
+}
+
+.aboutus_box_hero_left h1{
+    color: #49557e;
+    font-size: 900;
+    padding-bottom: 15px;
+}
+
+.aboutus_box_hero_left p{
+    margin-top: 10px;
+    color: #747474;
+
+    cursor: pointer;
+}
+
+.aboutus_box_hero_right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;  /* pushes image to right */
+}
+
+.aboutus_box_hero_right img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 100px 0px;
+    margin-bottom: 32px;
+}
+
+
+.aboutus hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}

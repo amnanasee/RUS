@@ -1,0 +1,179 @@
+
+
+.product-container {
+  padding: 40px;
+}
+
+/* Top Layout */
+.product-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.product-info h1{
+  color: Red;
+}
+
+
+.product-info ul {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.product-info li {
+  margin-bottom: 8px;
+}
+
+.product-image {
+  width: 40%;
+}
+
+.product-image img {
+  width: 200px;
+  height: 400px;
+}
+
+/* Application Section */
+.product-application {
+  margin-top: 40px;
+}
+
+.product-application h3 {
+  color: #778899;
+}
+
+/* Table Styling */
+.product-specifications {
+  margin-top: 40px;
+}
+
+.specification-name{
+  background: #778899;
+  color: black;
+  width: 30%;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #778899;
+  color: black;
+  padding: 10px;
+}
+
+table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.product-info h1{
+  color: #778899;
+}
+
+.product-specifications h3{
+  color: #778899;
+}
+
+.product-features {
+  margin-top: 0;
+}
+
+.product-features h3 {
+  background: #778899;
+  color: black;
+  padding: 10px;
+}
+
+.product-features table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-features td {
+  border: 1px solid #778899;
+  padding: 10px;
+}
+
+.feature-name {
+  background: #778899;
+  color: black;
+  width: 30%;
+}
+
+.feature-value {
+  text-align: center;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.es-product-container {
+  padding: 40px;
+}
+
+/* Title */
+.es-title {
+  text-align: center;
+  color: #49557e;
+  margin-bottom: 30px;
+}
+
+/* Images */
+.es-images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.es-images img {
+  width: 400px;
+}
+
+/* Sections */
+.es-section {
+  margin-top: 30px;
+}
+
+.es-section h3 {
+  background: #778899;
+  color: black;
+  padding: 8px 15px;
+  font-weight: bold;
+}
+
+.es-section p {
+  padding: 15px;
+  line-height: 1.6;
+}
+
+/* Table */
+.es-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.es-section td {
+  border: 1px solid #778899;
+  padding: 10px;
+}
+
+.spec-name{
+  background: #778899;
+  width: 30%;
+}
+
+.item-name{
+  background: #778899;
+  width: 30%;
+}
