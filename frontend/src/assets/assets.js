@@ -5,9 +5,6 @@ import aboutus from './aboutus.jpg'
 
 export const assets = {
     logo,
-    facebook_icon,
-    linkedIn_icon,
-    twitter_Icon,
     aboutus
 
 }
