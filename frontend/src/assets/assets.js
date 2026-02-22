@@ -1,9 +1,6 @@
 import logo from './logo.jpg'
 import product_1 from './product_1.png'
 import product_2 from './product_2.png'
-import facebook_icon from './facebook_icon.png'
-import linkedIn_icon from './linkedIn.jpg'
-import twitter_Icon from './twitter.png'
 import aboutus from './aboutus.jpg'
 
 export const assets = {
