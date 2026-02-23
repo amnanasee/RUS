@@ -3,6 +3,7 @@ import './Footer.css'
 import { assets } from '../../assets/assets'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareFacebook, faSquareLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -19,11 +20,11 @@ const Footer = () => {
             </div>
             <div className="footer-content-center">
                 <h2>COMPANY</h2>
-                <ul>
-                    <li>Home</li>
-                    <li>About us</li>
-                    <li>Privacy policy</li>
-                </ul>
+        <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><a href="#about">About us</a></li>
+        <li><Link to="/privacy">Privacy policy</Link></li>
+        </ul>
             </div>
             <div className="footer-content-right">
                     <h2>GET IN TOUCH</h2>

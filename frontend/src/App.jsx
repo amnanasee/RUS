@@ -7,6 +7,7 @@ import Cart from './pages/Cart/Cart'
 import ProductDetails from './pages/ProductDetails/ProductDetails'
 import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
+import AboutUs from './components/AboutUs/AboutUs'
 
 const App = () => {
 
